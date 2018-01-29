@@ -16,13 +16,13 @@
     "min_cap" : "1000000000000000000000",
     "start_time" : "01/23/2018 00:00:00",
     "end_time" : "01/26/2018 00:00:00",
+    "coeff": "100",
     "rate": {
       "is_static": false,
       "base_rate": "200",
       "bonus": {
         "use_time_bonus" : true,
         "use_amount_bonus" : true,
-        "bonus_coeff": "100",
         "time_bonuses" : [
           { "bonus_time_stage": "01/23/2018 00:00:00", "bonus_time_ratio": "10" },
           { "bonus_time_stage": "01/24/2018 00:00:00", "bonus_time_ratio": "5" }
