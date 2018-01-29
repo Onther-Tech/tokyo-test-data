@@ -14,8 +14,8 @@
   "sale" : {
     "max_cap" : "4000000000000000000000",
     "min_cap" : "1000000000000000000000",
-    "start_time" : "01/23/2018 00:00",
-    "end_time" : "01/26/2018 00:00",
+    "start_time" : "01/23/2018 00:00:00",
+    "end_time" : "01/26/2018 00:00:00",
     "rate": {
       "is_static": false,
       "base_rate": "200",
@@ -24,8 +24,8 @@
         "use_amount_bonus" : true,
         "bonus_coeff": "100",
         "time_bonuses" : [
-          { "bonus_time_stage": "01/23/2018 00:00", "bonus_time_ratio": "10" },
-          { "bonus_time_stage": "01/24/2018 00:00", "bonus_time_ratio": "5" }
+          { "bonus_time_stage": "01/23/2018 00:00:00", "bonus_time_ratio": "10" },
+          { "bonus_time_stage": "01/24/2018 00:00:00", "bonus_time_ratio": "5" }
         ],
         "amount_bonuses" : [
           { "bonus_amount_stage": "1", "bonus_amount_ratio": "5" },
@@ -45,13 +45,23 @@
         { "ether_holder": "0x557678cf28594495ef4b08a6447726f931f8d788", "ether_ratio" : "20" }
       ]
     },
+    "stages": [
+      {
+        "start_time": "01/23/2018 00:00:00",
+        "end_time": "01/23/2018 23:59:59",
+        "independent_cap_ratio": "10",
+        "kyc": true
+      },
+      {
+        "start_time": "01/23/2018 00:00:00",
+        "end_time": "01/23/2018 23:59:59",
+        "independent_cap_ratio": "0",
+        "kyc": true
+      }
+    ],
     "valid_purchase": {
       "max_purchase_limit" : "500000000000000000000",
       "min_purchase_limit" : "10000000000000000"
-    },
-    "kyc": {
-      "kyc_for_mainsale" : true,
-      "kyc_for_presale" : true
     },
     "new_token_owner" : "0x557678cf28594495ef4b08a6447726f931f8d787",
     "multisig" : {
@@ -70,9 +80,9 @@
       {
         "is_straight" : false,
         "release" : [
-          { "release_time": "01/27/2018 00:00", "release_ratio": "20" },
-          { "release_time": "01/28/2018 00:00", "release_ratio": "30" },
-          { "release_time": "01/30/2018 00:00", "release_ratio": "50" }
+          { "release_time": "01/27/2018 00:00:00", "release_ratio": "20" },
+          { "release_time": "01/28/2018 00:00:00", "release_ratio": "30" },
+          { "release_time": "01/30/2018 00:00:00", "release_ratio": "50" }
         ],
         "distribution": [
           { "account": "0x557678cf28594495ef4b08a6447726f931f8d787", "ratio": "100" }
@@ -82,7 +92,7 @@
       {
         "is_straight" : false,
         "release" : [
-          { "release_time": "01/30/2018 00:00", "release_ratio": "100" }
+          { "release_time": "01/30/2018 00:00:00", "release_ratio": "100" }
         ],
         "distribution": [
           { "account": "0x557678cf28594495ef4b08a6447726f931f8d787", "ratio": "50" },
