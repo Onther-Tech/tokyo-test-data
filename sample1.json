@@ -3,9 +3,13 @@
     "token_type" : {
       "is_minime" : false
     },
+    "token_option": {
+      "burnable": true,
+      "pausable": true
+    },
     "token_name" : "Sample String",
     "token_symbol" : "SS",
-    "decimal" : 18
+    "decimals" : 18
   },
   "sale" : {
     "max_cap" : 4000,
