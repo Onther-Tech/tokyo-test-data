@@ -49,19 +49,24 @@
       {
         "start_time": "01/23/2018 00:00:00",
         "end_time": "01/23/2018 23:59:59",
-        "independent_cap_ratio": "10",
+        "cap_ratio": "10",
+        "max_purchase_limit" : "50000000000000000",
+        "min_purchase_limit" : "100000000000000",
         "kyc": true
       },
       {
         "start_time": "01/23/2018 00:00:00",
         "end_time": "01/23/2018 23:59:59",
-        "independent_cap_ratio": "0",
+        "cap_ratio": "0",
+        "max_purchase_limit" : "50000000000000000",
+        "min_purchase_limit" : "100000000000000",
         "kyc": true
       }
     ],
     "valid_purchase": {
       "max_purchase_limit" : "500000000000000000000",
-      "min_purchase_limit" : "10000000000000000"
+      "min_purchase_limit" : "10000000000000000",
+      "block_interval": 20
     },
     "new_token_owner" : "0x557678cf28594495ef4b08a6447726f931f8d787",
     "multisig" : {
@@ -84,7 +89,7 @@
           { "release_time": "01/28/2018 00:00:00", "release_ratio": "30" },
           { "release_time": "01/30/2018 00:00:00", "release_ratio": "50" }
         ],
-        "distribution": [
+        "beneficiaries": [
           { "account": "0x557678cf28594495ef4b08a6447726f931f8d787", "ratio": "100" }
         ],
         "ratio": "20"
@@ -94,7 +99,7 @@
         "release" : [
           { "release_time": "01/30/2018 00:00:00", "release_ratio": "100" }
         ],
-        "distribution": [
+        "beneficiaries": [
           { "account": "0x557678cf28594495ef4b08a6447726f931f8d787", "ratio": "50" },
           { "account": "0x557678cf28594495ef4b08a6447726f931f8d788", "ratio": "50" }
         ],
