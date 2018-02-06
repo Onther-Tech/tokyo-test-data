@@ -75,7 +75,7 @@
       {
         "start_time": "2018/01/23 00:00:00",
         "end_time": "2018/01/23 23:59:59",
-        "cap_ratio": "10",
+        "cap_ratio": "100",
         "max_purchase_limit": "50000000000000000",
         "min_purchase_limit": "100000000000000",
         "kyc": true
@@ -109,35 +109,35 @@
     "beneficiaries": [
       {
         "address": "0x557678cf28594495ef4b08a6447726f931f8d787",
-        "ratio": "20",
+        "ratio": "200",
         "is_straight": true,
         "release": [
           {
             "release_time": "2018/01/28 00:00:00",
-            "release_ratio": "30"
+            "release_ratio": "300"
           },
           {
             "release_time": "2018/01/30 00:00:00",
-            "release_ratio": "100"
+            "release_ratio": "1000"
           }
         ]
       },
       {
         "address": "0x557678cf28594495ef4b08a6447726f931f8d788",
-        "ratio": "80",
+        "ratio": "800",
         "is_straight": false,
         "release": [
           {
             "release_time": "2018/01/27 00:00:00",
-            "release_ratio": "20"
+            "release_ratio": "200"
           },
           {
             "release_time": "2018/01/28 00:00:00",
-            "release_ratio": "50"
+            "release_ratio": "500"
           },
           {
             "release_time": "2018/01/30 00:00:00",
-            "release_ratio": "100"
+            "release_ratio": "1000"
           }
         ]
       }
