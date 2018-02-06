@@ -118,7 +118,7 @@
           },
           {
             "release_time": "2018/01/30 00:00:00",
-            "release_ratio": "70"
+            "release_ratio": "100"
           }
         ]
       },
@@ -133,11 +133,11 @@
           },
           {
             "release_time": "2018/01/28 00:00:00",
-            "release_ratio": "30"
+            "release_ratio": "50"
           },
           {
             "release_time": "2018/01/30 00:00:00",
-            "release_ratio": "50"
+            "release_ratio": "100"
           }
         ]
       }
