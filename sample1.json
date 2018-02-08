@@ -62,11 +62,11 @@
       ],
       "ether": [
         {
-          "ether_holder": "0x557678cf28594495ef4b08a6447726f931f8d787",
+          "ether_holder": "0x557678Cf28594495eF4B08A6447726f931F8d787",
           "ether_ratio": "800"
         },
         {
-          "ether_holder": "0x557678cf28594495ef4b08a6447726f931f8d788",
+          "ether_holder": "0x557678Cf28594495ef4B08a6447726F931F8D788",
           "ether_ratio": "200"
         }
       ]
@@ -94,13 +94,13 @@
       "min_purchase_limit": "10000000000000000",
       "block_interval": 20
     },
-    "new_token_owner": "0x557678cf28594495ef4b08a6447726f931f8d787",
+    "new_token_owner": "0x557678Cf28594495eF4B08A6447726f931F8d787",
     "multisig": {
       "multisig_use": true,
       "num_multisig": 1,
       "multisig_owner": [
-        "0x557678cf28594495ef4b08a6447726f931f8d787",
-        "0x557678cf28594495ef4b08a6447726f931f8d788"
+        "0x557678Cf28594495eF4B08A6447726f931F8d787",
+        "0x557678Cf28594495ef4B08a6447726F931F8D788"
       ]
     }
   },
@@ -108,7 +108,7 @@
     "use_locker": true,
     "beneficiaries": [
       {
-        "address": "0x557678cf28594495ef4b08a6447726f931f8d787",
+        "address": "0x557678Cf28594495eF4B08A6447726f931F8d787",
         "ratio": "200",
         "is_straight": true,
         "release": [
@@ -123,7 +123,7 @@
         ]
       },
       {
-        "address": "0x557678cf28594495ef4b08a6447726f931f8d788",
+        "address": "0x557678Cf28594495ef4B08a6447726F931F8D788",
         "ratio": "800",
         "is_straight": false,
         "release": [
