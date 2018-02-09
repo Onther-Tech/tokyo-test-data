@@ -25,12 +25,12 @@
         "use_amount_bonus": true,
         "time_bonuses": [
           {
-            "bonus_time_stage": "2018/01/23 00:00:00",
-            "bonus_time_ratio": "100"
-          },
-          {
             "bonus_time_stage": "2018/01/24 00:00:00",
             "bonus_time_ratio": "50"
+          },
+          {
+            "bonus_time_stage": "2018/01/23 00:00:00",
+            "bonus_time_ratio": "100"
           }
         ],
         "amount_bonuses": [
