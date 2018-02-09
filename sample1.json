@@ -35,16 +35,16 @@
         ],
         "amount_bonuses": [
           {
-            "bonus_amount_stage": "100000000000000000000",
-            "bonus_amount_ratio": "50"
+            "bonus_amount_stage": "10000000000000000000000",
+            "bonus_amount_ratio": "200"
           },
           {
             "bonus_amount_stage": "1000000000000000000000",
             "bonus_amount_ratio": "100"
           },
           {
-            "bonus_amount_stage": "10000000000000000000000",
-            "bonus_amount_ratio": "200"
+            "bonus_amount_stage": "100000000000000000000",
+            "bonus_amount_ratio": "50"
           }
         ]
       }
