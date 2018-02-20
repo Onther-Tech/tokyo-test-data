@@ -1,4 +1,5 @@
 {
+  "project_name": "Sample Project",
   "token": {
     "token_type": {
       "is_minime": true
@@ -25,26 +26,26 @@
         "use_amount_bonus": true,
         "time_bonuses": [
           {
-            "bonus_time_stage": "2018/03/24 00:00:00",
-            "bonus_time_ratio": "50"
-          },
-          {
             "bonus_time_stage": "2018/03/23 00:00:00",
             "bonus_time_ratio": "100"
+          },
+          {
+            "bonus_time_stage": "2018/03/24 00:00:00",
+            "bonus_time_ratio": "50"
           }
         ],
         "amount_bonuses": [
           {
-            "bonus_amount_stage": "10000000000000000000000",
-            "bonus_amount_ratio": "200"
+            "bonus_amount_stage": "100000000000000000000",
+            "bonus_amount_ratio": "50"
           },
           {
             "bonus_amount_stage": "1000000000000000000000",
             "bonus_amount_ratio": "100"
           },
           {
-            "bonus_amount_stage": "100000000000000000000",
-            "bonus_amount_ratio": "50"
+            "bonus_amount_stage": "10000000000000000000000",
+            "bonus_amount_ratio": "200"
           }
         ]
       }
@@ -62,11 +63,11 @@
       ],
       "ether": [
         {
-          "ether_holder": "0x557678Cf28594495eF4B08A6447726f931F8d787",
+          "ether_holder": "0x557678cf28594495ef4b08a6447726f931f8d787",
           "ether_ratio": "800"
         },
         {
-          "ether_holder": "0x557678Cf28594495ef4B08a6447726F931F8D788",
+          "ether_holder": "0x557678cf28594495ef4b08a6447726f931f8d788",
           "ether_ratio": "200"
         }
       ]
@@ -94,13 +95,13 @@
       "min_purchase_limit": "10000000000000000",
       "block_interval": 20
     },
-    "new_token_owner": "0x557678Cf28594495eF4B08A6447726f931F8d787",
+    "new_token_owner": "0x557678cf28594495ef4b08a6447726f931f8d787",
     "multisig": {
       "multisig_use": true,
       "num_multisig": 1,
       "multisig_owner": [
-        "0x557678Cf28594495eF4B08A6447726f931F8d787",
-        "0x557678Cf28594495ef4B08a6447726F931F8D788"
+        "0x557678cf28594495ef4b08a6447726f931f8d787",
+        "0x557678cf28594495ef4b08a6447726f931f8d788"
       ]
     }
   },
@@ -108,7 +109,7 @@
     "use_locker": true,
     "beneficiaries": [
       {
-        "address": "0x557678Cf28594495eF4B08A6447726f931F8d787",
+        "address": "0x557678cf28594495ef4b08a6447726f931f8d787",
         "ratio": "200",
         "is_straight": true,
         "release": [
@@ -123,7 +124,7 @@
         ]
       },
       {
-        "address": "0x557678Cf28594495ef4B08a6447726F931F8D788",
+        "address": "0x557678cf28594495ef4b08a6447726f931f8d788",
         "ratio": "800",
         "is_straight": false,
         "release": [
