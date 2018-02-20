@@ -36,16 +36,16 @@
         ],
         "amount_bonuses": [
           {
-            "bonus_amount_stage": "100000000000000000000",
-            "bonus_amount_ratio": "50"
+            "bonus_amount_stage": "10000000000000000000000",
+            "bonus_amount_ratio": "200"
           },
           {
             "bonus_amount_stage": "1000000000000000000000",
             "bonus_amount_ratio": "100"
           },
           {
-            "bonus_amount_stage": "10000000000000000000000",
-            "bonus_amount_ratio": "200"
+            "bonus_amount_stage": "100000000000000000000",
+            "bonus_amount_ratio": "50"
           }
         ]
       }
@@ -82,8 +82,8 @@
         "kyc": true
       },
       {
-        "start_time": "2018/03/23 00:00:00",
-        "end_time": "2018/03/23 23:59:59",
+        "start_time": "2018/03/24 00:00:00",
+        "end_time": "2018/03/26 00:00:00",
         "cap_ratio": "0",
         "max_purchase_limit": "50000000000000000",
         "min_purchase_limit": "100000000000000",
