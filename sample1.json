@@ -26,25 +26,25 @@
         "use_amount_bonus": true,
         "time_bonuses": [
           {
-            "bonus_time_stage": "2018/03/23 00:00:00",
+            "bonus_time_stage": "2018/03/24 00:00:00",
             "bonus_time_ratio": "100"
           },
           {
-            "bonus_time_stage": "2018/03/24 00:00:00",
+            "bonus_time_stage": "2018/03/25 00:00:00",
             "bonus_time_ratio": "50"
           }
         ],
         "amount_bonuses": [
           {
-            "bonus_amount_stage": "10000000000000000000000",
+            "bonus_amount_stage": "100000000000000000000",
             "bonus_amount_ratio": "200"
           },
           {
-            "bonus_amount_stage": "1000000000000000000000",
+            "bonus_amount_stage": "10000000000000000000",
             "bonus_amount_ratio": "100"
           },
           {
-            "bonus_amount_stage": "100000000000000000000",
+            "bonus_amount_stage": "1000000000000000000",
             "bonus_amount_ratio": "50"
           }
         ]
