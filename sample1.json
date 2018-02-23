@@ -16,7 +16,7 @@
     "max_cap": "4000000000000000000000",
     "min_cap": "1000000000000000000000",
     "start_time": "2018/03/23 00:00:00",
-    "end_time": "2018/03/26 00:00:00",
+    "end_time": "2018/03/27 00:00:00",
     "coeff": "1000",
     "rate": {
       "is_static": false,
@@ -30,7 +30,7 @@
             "bonus_time_ratio": "100"
           },
           {
-            "bonus_time_stage": "2018/03/25 00:00:00",
+            "bonus_time_stage": "2018/03/26 00:00:00",
             "bonus_time_ratio": "50"
           }
         ],
@@ -75,15 +75,15 @@
     "stages": [
       {
         "start_time": "2018/03/23 00:00:00",
-        "end_time": "2018/03/23 23:59:59",
+        "end_time": "2018/03/24 00:00:00",
         "cap_ratio": "100",
         "max_purchase_limit": "50000000000000000",
         "min_purchase_limit": "100000000000000",
         "kyc": true
       },
       {
-        "start_time": "2018/03/24 00:00:00",
-        "end_time": "2018/03/26 00:00:00",
+        "start_time": "2018/03/25 00:00:00",
+        "end_time": "2018/03/27 00:00:00",
         "cap_ratio": "0",
         "max_purchase_limit": "50000000000000000",
         "min_purchase_limit": "100000000000000",
