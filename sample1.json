@@ -95,15 +95,20 @@
       "min_purchase_limit": "10000000000000000",
       "block_interval": 20
     },
-    "new_token_owner": "0x557678cf28594495ef4b08a6447726f931f8d787",
-    "multisig": {
-      "multisig_use": true,
-      "num_multisig": 1,
-      "multisig_owner": [
+    "new_token_owner": "0x557678cf28594495ef4b08a6447726f931f8d787"
+  },
+  "multisig": {
+    "use_multisig": true,
+    "owners": [
+      [
         "0x557678cf28594495ef4b08a6447726f931f8d787",
         "0x557678cf28594495ef4b08a6447726f931f8d788"
+      ],
+      [
+        "0x557678cf28594495ef4b08a6447726f931f8d789",
+        "0x557678cf28594495ef4b08a6447726f931f8d78a"
       ]
-    }
+    ]
   },
   "locker": {
     "use_locker": true,
