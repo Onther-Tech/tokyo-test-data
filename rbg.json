@@ -7,7 +7,6 @@
     "token_option": {
       "burnable": true,
       "pausable": true,
-      "vesting": true
     },
     "token_name": "RankingBall Gold",
     "token_symbol": "RBG",
