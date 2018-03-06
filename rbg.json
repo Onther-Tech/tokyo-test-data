@@ -6,7 +6,7 @@
     },
     "token_option": {
       "burnable": true,
-      "pausable": true,
+      "pausable": true
     },
     "token_name": "RankingBall Gold",
     "token_symbol": "RBG",
@@ -134,17 +134,23 @@
   },
   "multisig": {
     "use_multisig": true,
-    "owners": [
-      [
-        "0xbB4774A4acCe63Bbbc564dc5C77886B7257DE9b8",
-        "0x55E628D4bAb3Aa9aB593717E2a15690254Ed1B04",
-        "0x977035241e4BED626965ab21c93ef4eb342b7BDD"
-      ],
-      [
-        "0xE21cC11659F79c2D1d185619fD32Dc2C0120D4Ac",
-        "0x9DE692A1F1F22e4Be4A890B3adEc0D31E99B6D92",
-        "0xEb39b26B44b29A29e55dE2bAaBB5C9b2bf867e2c"
-      ]
+    "infos": [
+      {
+        "num_required": 2,
+        "owners": [
+          "0xbB4774A4acCe63Bbbc564dc5C77886B7257DE9b8",
+          "0x55E628D4bAb3Aa9aB593717E2a15690254Ed1B04",
+          "0x977035241e4BED626965ab21c93ef4eb342b7BDD"
+        ]
+      },
+      {
+        "num_required": 2,
+        "owners": [
+          "0xE21cC11659F79c2D1d185619fD32Dc2C0120D4Ac",
+          "0x9DE692A1F1F22e4Be4A890B3adEc0D31E99B6D92",
+          "0xEb39b26B44b29A29e55dE2bAaBB5C9b2bf867e2c"
+        ]
+      }
     ]
   },
   "locker": {
